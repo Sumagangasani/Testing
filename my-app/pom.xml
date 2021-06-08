@@ -106,12 +106,12 @@
           </configuration>
       </plugin>
     </plugins>
-<distributionManagement>
-    <repository>
-        <id>nexus-releases</id>
-        <name>releases</name>
-        <url>http://myNexus/more/stuff</url>
-    </repository>
-</distributionManagement>
+	<distributionManagement>
+   	 <repository>
+       	 <id>nexus-releases</id>
+        	<name>releases</name>
+        	<url>http://myNexus/more/stuff</url>
+   	 </repository>
+	</distributionManagement>
 </build>
 </project>
